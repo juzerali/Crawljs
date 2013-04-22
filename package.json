@@ -1,0 +1,40 @@
+{
+  "name": "crawljs",
+  "description": "A basic nodejs crawler.",
+  "version": "0.0.1",
+  "author": "Juzer Ali <er.juzerali@gmail.com>",
+  "homepage": "https://juzerali.github.com/crawljs",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:juzerali/crawljs.git"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "crawljs": "./bin/crawljs"
+  },
+  "dependencies": {
+    "jsdom": "*"
+  },
+  "keywords": [
+    "crawler",
+    "crawl",
+    "spider"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.3.1",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
+}

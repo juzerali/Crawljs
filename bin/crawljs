@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var	Crawler = require("../lib/Crawler")
+,	seed = process.argv[2]
+,	limit = +process.argv[3];
+
+var crawler = new Crawler(limit);
+crawler.crawl(seed);
