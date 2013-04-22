@@ -1,7 +1,7 @@
 {
   "name": "crawljs",
   "description": "A basic nodejs crawler.",
-  "version": "0.0.2",
+  "version": "0.0.2c",
   "author": "Juzer Ali <er.juzerali@gmail.com>",
   "homepage": "https://juzerali.github.com/Crawljs",
   "repository": {

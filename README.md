@@ -2,6 +2,9 @@
 
 A basic crawler written in nodejs
 
+# Note
+Crawljs has a dependency on jsdom which in turn has dependency on contextify which is a native nodejs extension. To run this crawler, you will require a C++ compiler on your machine. [Details](https://github.com/tmpvar/jsdom#contextify).
+
 # Usage
 ```
 npm install -g crawljs
@@ -13,6 +16,7 @@ crawljs http://nodejs.org
 Crawls only first 500 urls encountered
 
 ## Programmatic api
+
 ```
 var	Crawler = require("../lib/Crawler")
 ,	seed = "http://nodejs.org"
@@ -20,3 +24,4 @@ var	Crawler = require("../lib/Crawler")
 
 var crawler = new Crawler(limit);
 crawler.crawl(seed);
+```
